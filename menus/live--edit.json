@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Open in Live Edit",
+        "command": "live--edit:ledit"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "live--edit",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "live--edit:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
